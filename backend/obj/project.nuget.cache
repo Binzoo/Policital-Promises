@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "p7k7biqS+08=",
+  "dgSpecHash": "f83PJdTVD8Q=",
   "success": true,
   "projectFilePath": "/Users/binamrathapa/Desktop/Projects/PolicitalPromises/backend/backend.csproj",
   "expectedPackageFiles": [
@@ -52,6 +52,8 @@
     "/Users/binamrathapa/.nuget/packages/microsoft.sqlserver.server/1.0.0/microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "/Users/binamrathapa/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "/Users/binamrathapa/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
+    "/Users/binamrathapa/.nuget/packages/npgsql/8.0.4/npgsql.8.0.4.nupkg.sha512",
+    "/Users/binamrathapa/.nuget/packages/npgsql.entityframeworkcore.postgresql/8.0.8/npgsql.entityframeworkcore.postgresql.8.0.8.nupkg.sha512",
     "/Users/binamrathapa/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "/Users/binamrathapa/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "/Users/binamrathapa/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

@@ -143,3 +143,5 @@
 /Users/binamrathapa/Desktop/Projects/PolicitalPromises/backend/obj/Debug/net8.0/backend.pdb
 /Users/binamrathapa/Desktop/Projects/PolicitalPromises/backend/obj/Debug/net8.0/backend.genruntimeconfig.cache
 /Users/binamrathapa/Desktop/Projects/PolicitalPromises/backend/obj/Debug/net8.0/ref/backend.dll
+/Users/binamrathapa/Desktop/Projects/PolicitalPromises/backend/bin/Debug/net8.0/Npgsql.dll
+/Users/binamrathapa/Desktop/Projects/PolicitalPromises/backend/bin/Debug/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll

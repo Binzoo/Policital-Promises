@@ -1,0 +1,29 @@
+// .animated-card-container {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   background-color: #f8f9fa;
+//   overflow: hidden;
+//   position: relative;
+//   margin-top: 330px;
+// }
+
+// .animated-card {
+//   animation: moveLeftRight 10s infinite;
+// }
+
+// /* Keyframes for moving the card left and then bringing it from the right */
+// @keyframes moveLeftRight {
+//   0% {
+//     transform: translate(
+//       200vw,
+//       -50%
+//     ); /* Start from right outside the viewport */
+//   }
+//   50% {
+//     transform: translate(-50%, -50%); /* Move to the center */
+//   }
+//   100% {
+//     transform: translate(-150vw, -50%); /* Move to left outside the viewport */
+//   }
+// }

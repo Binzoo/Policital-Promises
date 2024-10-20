@@ -7,6 +7,7 @@ import Promises from "./pages/Promises";
 import Politician from "./pages/Politician";
 import Login from "./pages/Login";
 import AddPromises from "./pages/AddPromises";
+import ProtectedRoute from "./utils/ProtectedRoute";
 
 function App() {
   return (
@@ -18,7 +19,14 @@ function App() {
           <Route path="/promises" element={<Promises />} />
           <Route path="/politician" element={<Politician />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/addpromises" element={<AddPromises />} />
+          <Route
+            path="/addpromises"
+            element={
+              <ProtectedRoute>
+                <AddPromises />
+              </ProtectedRoute>
+            }
+          />
         </Routes>
         <Footer />
       </BrowserRouter>

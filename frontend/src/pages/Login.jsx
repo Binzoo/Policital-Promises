@@ -1,16 +1,25 @@
+import axios from "axios";
+import { useState } from "react";
+
 function Login() {
+  const [username, setUsername] = useState();
+  const [password, setPassword] = useState();
+
+  function loginBtn(event) {
+    event.preventDefault();
+    axios.post("", {});
+  }
+
   return (
     <div
       className="container"
       style={{ marginTop: "30px", marginBottom: "300px" }}
     >
-      {" "}
-      {/* Reduced vertical spacing with margin-top and margin-bottom */}
       <div className="col-md-4 mx-auto">
         <div className="card shadow-sm">
           <div className="card-body">
             <h3 className="text-center mb-4">Login</h3>
-            <form>
+            <form onSubmit={loginBtn}>
               <div className="mb-3">
                 <label htmlFor="email" className="form-label">
                   Email address
@@ -41,7 +50,9 @@ function Login() {
                 </button>
               </div>
               <div className="mt-3 text-center">
-                <a className="text-dark">Forgot Password?</a>
+                <a href="www.youtube.com" className="text-dark">
+                  Forgot Password?
+                </a>
               </div>
             </form>
           </div>

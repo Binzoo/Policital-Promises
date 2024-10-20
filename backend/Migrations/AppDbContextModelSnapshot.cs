@@ -230,6 +230,58 @@ namespace backend.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("backend.Models.Promises", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Category")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("DateMade")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("DeadLine")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Notes")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int>("Progress")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("PromiseDescription")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("PromiseStatus")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("PromisingIndividual")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("PromisingParty")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("RegionCountry")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Promises");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)

@@ -40,7 +40,11 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          <Link className="btn btn-dark ms-auto" type="button" to="/login">
+          <Link
+            className="btn btn-dark ms-auto"
+            type="button"
+            to="/addpromises"
+          >
             Add Promises
           </Link>
         </div>

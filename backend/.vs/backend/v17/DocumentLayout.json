@@ -1,0 +1,232 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3EB7A900-DF41-4F3D-828A-501B0E7BD9E3}|backend.csproj|d:\\full stack projects\\policital-promises\\backend\\controllers\\promisescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EB7A900-DF41-4F3D-828A-501B0E7BD9E3}|backend.csproj|solutionrelative:controllers\\promisescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EB7A900-DF41-4F3D-828A-501B0E7BD9E3}|backend.csproj|d:\\full stack projects\\policital-promises\\backend\\models\\promises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EB7A900-DF41-4F3D-828A-501B0E7BD9E3}|backend.csproj|solutionrelative:models\\promises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EB7A900-DF41-4F3D-828A-501B0E7BD9E3}|backend.csproj|d:\\full stack projects\\policital-promises\\backend\\authentication\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EB7A900-DF41-4F3D-828A-501B0E7BD9E3}|backend.csproj|solutionrelative:authentication\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EB7A900-DF41-4F3D-828A-501B0E7BD9E3}|backend.csproj|d:\\full stack projects\\policital-promises\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EB7A900-DF41-4F3D-828A-501B0E7BD9E3}|backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EB7A900-DF41-4F3D-828A-501B0E7BD9E3}|backend.csproj|d:\\full stack projects\\policital-promises\\backend\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EB7A900-DF41-4F3D-828A-501B0E7BD9E3}|backend.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EB7A900-DF41-4F3D-828A-501B0E7BD9E3}|backend.csproj|d:\\full stack projects\\policital-promises\\backend\\authentication\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EB7A900-DF41-4F3D-828A-501B0E7BD9E3}|backend.csproj|solutionrelative:authentication\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EB7A900-DF41-4F3D-828A-501B0E7BD9E3}|backend.csproj|d:\\full stack projects\\policital-promises\\backend\\migrations\\20241007182001_initialdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EB7A900-DF41-4F3D-828A-501B0E7BD9E3}|backend.csproj|solutionrelative:migrations\\20241007182001_initialdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EB7A900-DF41-4F3D-828A-501B0E7BD9E3}|backend.csproj|d:\\full stack projects\\policital-promises\\backend\\migrations\\20241019181410_added promises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EB7A900-DF41-4F3D-828A-501B0E7BD9E3}|backend.csproj|solutionrelative:migrations\\20241019181410_added promises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EB7A900-DF41-4F3D-828A-501B0E7BD9E3}|backend.csproj|d:\\full stack projects\\policital-promises\\backend\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EB7A900-DF41-4F3D-828A-501B0E7BD9E3}|backend.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EB7A900-DF41-4F3D-828A-501B0E7BD9E3}|backend.csproj|d:\\full stack projects\\policital-promises\\backend\\authentication\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EB7A900-DF41-4F3D-828A-501B0E7BD9E3}|backend.csproj|solutionrelative:authentication\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EB7A900-DF41-4F3D-828A-501B0E7BD9E3}|backend.csproj|d:\\full stack projects\\policital-promises\\backend\\authentication\\addorupdateappusermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EB7A900-DF41-4F3D-828A-501B0E7BD9E3}|backend.csproj|solutionrelative:authentication\\addorupdateappusermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EB7A900-DF41-4F3D-828A-501B0E7BD9E3}|backend.csproj|d:\\full stack projects\\policital-promises\\backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3EB7A900-DF41-4F3D-828A-501B0E7BD9E3}|backend.csproj|solutionrelative:backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EB7A900-DF41-4F3D-828A-501B0E7BD9E3}|backend.csproj|d:\\full stack projects\\policital-promises\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3EB7A900-DF41-4F3D-828A-501B0E7BD9E3}|backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PromisesController.cs",
+              "DocumentMoniker": "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\Controllers\\PromisesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PromisesController.cs",
+              "ToolTip": "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\Controllers\\PromisesController.cs",
+              "RelativeToolTip": "Controllers\\PromisesController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAD4vykAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T18:16:24.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Promises.cs",
+              "DocumentMoniker": "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\Models\\Promises.cs",
+              "RelativeDocumentMoniker": "Models\\Promises.cs",
+              "ToolTip": "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\Models\\Promises.cs",
+              "RelativeToolTip": "Models\\Promises.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAIA+wBsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T18:08:45.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddOrUpdateAppUserModel.cs",
+              "DocumentMoniker": "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\Authentication\\AddOrUpdateAppUserModel.cs",
+              "RelativeDocumentMoniker": "Authentication\\AddOrUpdateAppUserModel.cs",
+              "ToolTip": "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\Authentication\\AddOrUpdateAppUserModel.cs",
+              "RelativeToolTip": "Authentication\\AddOrUpdateAppUserModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T18:05:52.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\Authentication\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Authentication\\AppDbContext.cs",
+              "ToolTip": "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\Authentication\\AppDbContext.cs",
+              "RelativeToolTip": "Authentication\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T18:05:51.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\Authentication\\AppUser.cs",
+              "RelativeDocumentMoniker": "Authentication\\AppUser.cs",
+              "ToolTip": "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\Authentication\\AppUser.cs",
+              "RelativeToolTip": "Authentication\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T18:05:51.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\Authentication\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Authentication\\LoginModel.cs",
+              "ToolTip": "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\Authentication\\LoginModel.cs",
+              "RelativeToolTip": "Authentication\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T18:05:50.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "backend.csproj",
+              "DocumentMoniker": "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\backend.csproj",
+              "RelativeDocumentMoniker": "backend.csproj",
+              "ToolTip": "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\backend.csproj",
+              "RelativeToolTip": "backend.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-19T18:05:15.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T18:02:49.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwD4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T17:47:50.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20241019181410_Added Promises.cs",
+              "DocumentMoniker": "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\Migrations\\20241019181410_Added Promises.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241019181410_Added Promises.cs",
+              "ToolTip": "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\Migrations\\20241019181410_Added Promises.cs",
+              "RelativeToolTip": "Migrations\\20241019181410_Added Promises.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAA1wCgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T18:14:11.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20241007182001_InitialDb.cs",
+              "DocumentMoniker": "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\Migrations\\20241007182001_InitialDb.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241007182001_InitialDb.cs",
+              "ToolTip": "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\Migrations\\20241007182001_InitialDb.cs",
+              "RelativeToolTip": "Migrations\\20241007182001_InitialDb.cs",
+              "ViewState": "AQIAAK8AAAAAAAAAAAAqwMgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T18:04:27.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T18:04:26.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-19T17:48:13.152Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

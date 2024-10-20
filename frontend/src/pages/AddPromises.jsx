@@ -1,11 +1,68 @@
+import axios from "axios";
+import { useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 function AddPromises() {
+  const [promiseDescription, setpromiseDescription] = useState();
+  const [DateMade, setDateMade] = useState();
+  const [PromisingParty, setPromisingParty] = useState();
+  const [PromisingIndividual, setPromisingIndividual] = useState();
+  const [PromiseStatus, setPromiseStatus] = useState();
+  const [Deadline, setDeadline] = useState();
+  const [RegionCountry, setRegionCountry] = useState();
+  const [Category, setCategory] = useState();
+  const [Progress, setProgress] = useState();
+  const [Notes, setNotes] = useState();
+
+  function AddPromiseButton(event) {
+    event.preventDefault();
+
+    const config = {
+      headers: {
+        Authorization: `Bearer ${"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InN0cmluZyIsIm5iZiI6MTcyOTQ0MTI3OCwiZXhwIjoxNzI5NTI3Njc4LCJpYXQiOjE3Mjk0NDEyNzgsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6NTI4NyIsImF1ZCI6Imh0dHA6Ly9sb2NhbGhvc3Q6NTI4NyJ9.Mbw6PSfcI4rdzSdgOLSXBjRHnfwHfltUXMw6aiK2PSo"}`,
+      },
+    };
+    axios
+      .post(
+        "https://localhost:7119/api/Promises",
+        {
+          id: 0,
+          promiseDescription: promiseDescription,
+          dateMade: DateMade,
+          promisingParty: PromisingParty,
+          promisingIndividual: PromisingIndividual,
+          promiseStatus: PromiseStatus,
+          deadLine: Deadline,
+          regionCountry: RegionCountry,
+          category: Category,
+          progress: parseInt(Progress, 10),
+          notes: Notes,
+        },
+        config
+      )
+      .then((response) => {
+        toast.success(response.data.message, {
+          position: "top-right",
+          autoClose: 5000,
+        });
+      })
+      .catch((error) => {
+        console.log("Request failed:", error.response);
+        toast.error("Error occurred!", {
+          position: toast.POSITION.TOP_RIGHT,
+          autoClose: 5000,
+        });
+      });
+  }
+
   return (
     <div className="container mt-5 mb-5">
       <div className="col-md-8 mx-auto">
         <div className="card shadow-sm">
           <div className="card-body">
             <h3 className="text-center mb-4">Add a Promise</h3>
-            <form>
+            <form onSubmit={AddPromiseButton}>
               <div className="mb-3">
                 <label htmlFor="description" className="form-label">
                   Promise Description
@@ -15,8 +72,7 @@ function AddPromises() {
                   id="description"
                   name="description"
                   rows="3"
-                  //   value={promiseData.description}
-                  //   onChange={handleChange}
+                  onChange={(e) => setpromiseDescription(e.target.value)}
                   required
                 ></textarea>
               </div>
@@ -31,7 +87,7 @@ function AddPromises() {
                   id="dateMade"
                   name="dateMade"
                   //   value={promiseData.dateMade}
-                  //   onChange={handleChange}
+                  onChange={(e) => setDateMade(e.target.value)}
                   required
                 />
               </div>
@@ -46,7 +102,7 @@ function AddPromises() {
                   id="promisingParty"
                   name="promisingParty"
                   //   value={promiseData.promisingParty}
-                  //   onChange={handleChange}
+                  onChange={(e) => setPromisingParty(e.target.value)}
                   placeholder="Enter the promising party"
                   required
                 />
@@ -62,7 +118,7 @@ function AddPromises() {
                   id="promisingIndividual"
                   name="promisingIndividual"
                   //   value={promiseData.promisingIndividual}
-                  //   onChange={handleChange}
+                  onChange={(e) => setPromisingIndividual(e.target.value)}
                   placeholder="Enter the promising individual"
                   required
                 />
@@ -77,7 +133,7 @@ function AddPromises() {
                   id="status"
                   name="status"
                   //   value={promiseData.status}
-                  //   onChange={handleChange}
+                  onChange={(e) => setPromiseStatus(e.target.value)}
                   required
                 >
                   <option value="">Select status</option>
@@ -97,7 +153,7 @@ function AddPromises() {
                   id="deadline"
                   name="deadline"
                   //   value={promiseData.deadline}
-                  //   onChange={handleChange}
+                  onChange={(e) => setDeadline(e.target.value)}
                   required
                 />
               </div>
@@ -112,7 +168,7 @@ function AddPromises() {
                   id="region"
                   name="region"
                   //   value={promiseData.region}
-                  //   onChange={handleChange}
+                  onChange={(e) => setRegionCountry(e.target.value)}
                   placeholder="Enter the region or country"
                   required
                 />
@@ -128,7 +184,7 @@ function AddPromises() {
                   id="category"
                   name="category"
                   //   value={promiseData.category}
-                  //   onChange={handleChange}
+                  onChange={(e) => setCategory(e.target.value)}
                   placeholder="Enter the category"
                   required
                 />
@@ -139,12 +195,12 @@ function AddPromises() {
                   Progress
                 </label>
                 <input
-                  type="text"
+                  type="number"
                   className="form-control"
                   id="progress"
                   name="progress"
                   //   value={promiseData.progress}
-                  //   onChange={handleChange}
+                  onChange={(e) => setProgress(e.target.value)}
                   placeholder="Enter progress (e.g., 50%)"
                   required
                 />
@@ -160,7 +216,7 @@ function AddPromises() {
                   name="notes"
                   rows="3"
                   //   value={promiseData.notes}
-                  //   onChange={handleChange}
+                  onChange={(e) => setNotes(e.target.value)}
                   placeholder="Additional notes"
                 ></textarea>
               </div>
@@ -174,6 +230,7 @@ function AddPromises() {
           </div>
         </div>
       </div>
+      <ToastContainer />
     </div>
   );
 }

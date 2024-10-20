@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/Users/binamrathapa/Desktop/Projects/PolicitalPromises/backend/backend.csproj": {}
+    "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\backend.csproj": {}
   },
   "projects": {
-    "/Users/binamrathapa/Desktop/Projects/PolicitalPromises/backend/backend.csproj": {
+    "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/binamrathapa/Desktop/Projects/PolicitalPromises/backend/backend.csproj",
+        "projectUniqueName": "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\backend.csproj",
         "projectName": "backend",
-        "projectPath": "/Users/binamrathapa/Desktop/Projects/PolicitalPromises/backend/backend.csproj",
-        "packagesPath": "/Users/binamrathapa/.nuget/packages/",
-        "outputPath": "/Users/binamrathapa/Desktop/Projects/PolicitalPromises/backend/obj/",
+        "projectPath": "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\backend.csproj",
+        "packagesPath": "C:\\Users\\binam\\.nuget\\packages\\",
+        "outputPath": "D:\\FULL STACK PROJECTS\\Policital-Promises\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/binamrathapa/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\binam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -69,6 +72,10 @@
               "target": "Package",
               "version": "[8.0.8, )"
             },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[8.0.8, )"
@@ -97,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
